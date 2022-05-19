@@ -1,0 +1,13 @@
+[en]
+title = "My blog"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/english"
+
+[fa]
+title = "وبسایت من"
+description = "کورس زنبوری"
+contentDir = "content/persian" 
+weight = 2
+LanguageDirection = "rtl" 
+LanguageName = "FA"
