@@ -12,7 +12,7 @@ profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+customCss = ["css/academicons.css"]
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = [""]
@@ -63,10 +63,19 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 
 [[socialIcons]]
-icon = "fab fa-publons"
-title = "Publons"
-url = "https://www.linkedin.com/in/kouros-zanbouri/"
+icon = "ai ai-google-scholar-square ai-3x"
+title = "Google Scholar"
+url = "https://scholar.google.com/"
 
+[[socialIcons]]
+icon = "fab fa-orcid"
+title = "orcid"
+url = "https://orcid.org/0000-0003-0252-8282"
+
+[[socialIcons]]
+icon = "fab fa-orcid"
+title = "orcid"
+url = "https://orcid.org/0000-0003-0252-8282"
 
 [[socialIcons]]
 icon = "fab fa-linkedin"
@@ -83,10 +92,6 @@ icon = "fab fa-instagram"
 title = "instagram"
 url = "https://www.instagram.com/kouroszanbouri/"
 
-[[socialIcons]]
-icon = "fab fa-orcid"
-title = "orcid"
-url = "https://www.orcid.com"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
@@ -104,10 +109,6 @@ icon = "publons"
 title = "e-mail"
 url = "https://t.me/KourosZ"
 
-[[params.social]]
-icon = "publons"
-icon_pack = "ai"
-link = "//publons.com/author/xxxx"
 
 [mermaid]
 # enable = true
