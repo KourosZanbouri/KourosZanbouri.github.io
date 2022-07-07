@@ -60,20 +60,29 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
+
+<span id="badgeCont329"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont329&rid=C-5031-2019&size=small"></script></span>
+
+[[socialIcons]]
+icon = "fab fa-publons"
+title = "Publons"
+url = "https://www.linkedin.com/in/kouros-zanbouri/"
+
+
 [[socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/kouros-zanbouri/"
 
 [[socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/KourosZanbouri/"
 
 [[socialIcons]]
 icon = "fab fa-instagram"
 title = "instagram"
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/kouroszanbouri/"
 
 [[socialIcons]]
 icon = "fab fa-orcid"
@@ -85,15 +94,11 @@ icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mail@example.com"
 
-[[socialIcons]]
-icon = "fas fa-telegram"
-title = "e-mail"
-url = "mailto:mail@example.com"
 
 [[socialIcons]]
 icon = "fab fa-telegram"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "https://t.me/KourosZ"
 
 [mermaid]
 # enable = true
