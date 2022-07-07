@@ -99,5 +99,15 @@ icon = "fab fa-telegram"
 title = "e-mail"
 url = "https://t.me/KourosZ"
 
+[[socialIcons]]
+icon = "publons"
+title = "e-mail"
+url = "https://t.me/KourosZ"
+
+[[params.social]]
+icon = "publons"
+icon_pack = "ai"
+link = "//publons.com/author/xxxx"
+
 [mermaid]
 # enable = true
