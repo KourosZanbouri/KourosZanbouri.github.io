@@ -61,10 +61,9 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
-
 [[socialIcons]]
-icon = "ai ai-google-scholar-square ai-3x"
-title = "Google Scholar"
+icon = "ai ai-publons-square ai-3x"
+title = "Publons"
 url = "https://scholar.google.com/"
 
 [[socialIcons]]
@@ -73,9 +72,16 @@ title = "orcid"
 url = "https://orcid.org/0000-0003-0252-8282"
 
 [[socialIcons]]
-icon = "fab fa-orcid"
-title = "orcid"
-url = "https://orcid.org/0000-0003-0252-8282"
+icon = "ai ai-google-scholar-square ai-3x"
+title = "Google Scholar"
+url = "https://scholar.google.com/"
+
+
+[[socialIcons]]
+icon = "ai ai-scopus ai-3x"
+title = "Scopus"
+url = "https://scholar.google.com/"
+
 
 [[socialIcons]]
 icon = "fab fa-linkedin"
