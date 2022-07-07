@@ -61,7 +61,6 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
-<span id="badgeCont329"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont329&rid=C-5031-2019&size=small"></script></span>
 
 [[socialIcons]]
 icon = "fab fa-publons"
