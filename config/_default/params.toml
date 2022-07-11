@@ -1,4 +1,3 @@
-
 title = "I'm Kouros Zanbouri"
 author = "Kouros Zanbouri"
 #copyright = "2020-2021"
@@ -123,11 +122,6 @@ url = "https://t.me/KourosZ"
 icon = "publons"
 title = "e-mail"
 url = "https://t.me/KourosZ"
-
-[[params.social]]
-icon = "publons"
-icon_pack = "ai"
-link = "//publons.com/author/xxxx"
 
 [mermaid]
 # enable = true
