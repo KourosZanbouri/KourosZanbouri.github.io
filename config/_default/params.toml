@@ -62,7 +62,6 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
 [[socialIcons]]
-<<<<<<< HEAD
 icon = "ai ai-publons-square ai-3x"
 title = "Publons"
 url = "https://scholar.google.com/"
