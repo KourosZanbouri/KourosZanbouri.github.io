@@ -82,7 +82,7 @@ icon = "ai ai-scopus ai-3x"
 title = "Scopus"
 url = "https://scholar.google.com/"
 
-
+[[socialIcons]]
 icon = "fab fa-publons"
 title = "Publons"
 url = "https://www.linkedin.com/in/kouros-zanbouri/"
