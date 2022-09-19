@@ -14,7 +14,7 @@ profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+customCss = "css/academicons.css"
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = [""]
