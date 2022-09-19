@@ -94,6 +94,10 @@ icon = "fab fa-telegram"
 title = "e-mail"
 url = "https://t.me/KourosZ"
 
+[[socialIcons]]
+icon = "ai ai-google-scholar-square ai-3x"
+title = "Google Scholar"
+url = "https://scholar.google.com/"
 
 [mermaid]
 # enable = true
