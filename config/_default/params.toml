@@ -14,7 +14,7 @@ profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = ["assets/css/academicons.css"]
+customCss = []
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = [""]
@@ -64,40 +64,9 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
 [[socialIcons]]
-icon = "ai ai-publons-square ai-3x"
-title = "Publons"
-url = "https://scholar.google.com/"
-
-[[socialIcons]]
 icon = "fab fa-orcid"
 title = "orcid"
 url = "https://orcid.org/0000-0003-0252-8282"
-
-[[socialIcons]]
-<<<<<<< HEAD
-icon = "ai ai-google-scholar-square ai-3x"
-title = "Google Scholar"
-url = "https://scholar.google.com/"
-
-<<<<<<< HEAD
-=======
-
-[[socialIcons]]
-icon = "ai ai-scopus ai-3x"
-title = "Scopus"
-url = "https://scholar.google.com/"
-
-[[socialIcons]]
-icon = "fab fa-publons"
-title = "Publons"
-url = "https://www.linkedin.com/in/kouros-zanbouri/"
->>>>>>> parent of a1fdac9 (Update params.toml)
-
-=======
-icon = "fab fa-publons"
-title = "Publons"
-url = "https://www.linkedin.com/in/kouros-zanbouri/"
->>>>>>> parent of 37db78d (installed academicons and updated theme)
 
 [[socialIcons]]
 icon = "fab fa-linkedin"
@@ -114,31 +83,17 @@ icon = "fab fa-instagram"
 title = "instagram"
 url = "https://www.instagram.com/kouroszanbouri/"
 
-[[socialIcons]]
-icon = "fab fa-orcid"
-title = "orcid"
-url = "https://www.orcid.com"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mail@example.com"
 
-
 [[socialIcons]]
 icon = "fab fa-telegram"
 title = "e-mail"
 url = "https://t.me/KourosZ"
 
-[[socialIcons]]
-icon = "publons"
-title = "e-mail"
-url = "https://t.me/KourosZ"
-
-[[socialIcons]]
-icon = "ai ai-google-scholar-square ai-3x"
-title = "Google Scholar"
-url = "https://scholar.google.com/"
 
 [mermaid]
 # enable = true
