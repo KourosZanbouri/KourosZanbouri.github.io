@@ -79,9 +79,6 @@ icon = "ai ai-google-scholar-square ai-3x"
 title = "Google Scholar"
 url = "https://scholar.google.com/"
 
-<<<<<<< HEAD
-=======
-
 [[socialIcons]]
 icon = "ai ai-scopus ai-3x"
 title = "Scopus"
@@ -91,13 +88,10 @@ url = "https://scholar.google.com/"
 icon = "fab fa-publons"
 title = "Publons"
 url = "https://www.linkedin.com/in/kouros-zanbouri/"
->>>>>>> parent of a1fdac9 (Update params.toml)
 
-=======
 icon = "fab fa-publons"
 title = "Publons"
 url = "https://www.linkedin.com/in/kouros-zanbouri/"
->>>>>>> parent of 37db78d (installed academicons and updated theme)
 
 [[socialIcons]]
 icon = "fab fa-linkedin"
