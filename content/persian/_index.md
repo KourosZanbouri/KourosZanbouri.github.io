@@ -5,8 +5,8 @@ author = "Hugo Authors"
 
 ## تحصیلات <i class="fa-solid fa-graduation-cap fa-xs"></i>
 
- - **کارشناسی**, Information Technology (IT), Islamic Azad University of Shabestar, Shabestar, Iran
- - **کارشناسی ارشد**, Information Technology IT (Computer Networks), Islamic Azad University of Tabriz, Tabriz, Iran
+ - **کارشناسی**, فناوری اطلاعات IT ، دانشگاه آزاد شبستر ، شبستر ، ایران
+ - **کارشناسی ارشد**, فناوری اطلاعات IT - شبکه های کامپیوتری ، دانشگاه آزاد تبریز ، تبریز ، ایران
  
  
 ##علایق پژوهشی <i class="fa-solid fa-magnifying-glass fa-xs"></i> 
