@@ -3,13 +3,13 @@ author = "Hugo Authors"
 +++
 
 
-## تحصیلات <i class="fa-solid fa-graduation-cap fa-xs"></i>
+## <i class="fa-solid fa-graduation-cap fa-xs"></i>تحصیلات
 
  - **کارشناسی**, فناوری اطلاعات IT ، دانشگاه آزاد شبستر ، شبستر ، ایران
  - **کارشناسی ارشد**, فناوری اطلاعات IT - شبکه های کامپیوتری ، دانشگاه آزاد تبریز ، تبریز ، ایران
  
  
-## علایق پژوهشی <i class="fa-solid fa-magnifying-glass fa-xs"></i> 
+## <i class="fa-solid fa-magnifying-glass fa-xs"></i> علایق پژوهشی
  - رایانش ابری
  - رایانش مه
  - بهینه سازی مهندسی
@@ -24,7 +24,7 @@ author = "Hugo Authors"
 
 
 
-## خدمات آکادمیک <i class="fa-solid fa-building-columns fa-xs"></i>
+## <i class="fa-solid fa-building-columns fa-xs"></i>خدمات آکادمیک
 **داور میهمان برای:**
 
  - Journal of Ambient Intelligence and Humanized Computing (Springer
