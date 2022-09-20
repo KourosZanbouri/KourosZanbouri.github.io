@@ -9,7 +9,7 @@ author = "Hugo Authors"
  - **کارشناسی ارشد**, فناوری اطلاعات IT - شبکه های کامپیوتری ، دانشگاه آزاد تبریز ، تبریز ، ایران
  
  
-##علایق پژوهشی <i class="fa-solid fa-magnifying-glass fa-xs"></i> 
+## علایق پژوهشی <i class="fa-solid fa-magnifying-glass fa-xs"></i> 
  - رایانش ابری
  - رایانش مه
  - بهینه سازی مهندسی
@@ -17,7 +17,7 @@ author = "Hugo Authors"
  - اینترنت اشیا (IoT)
  - یادگیری ماشین
 
-##مقالات<i class="fa-solid fa-pen-fancy fa-xs"></i> 
+## <i class="fa-solid fa-pen-fancy fa-xs"></i> مقالات<i class="fa-solid fa-pen-fancy fa-xs"></i> 
 
  - A cloud service composition method using a trust-based clustering algorithm and honeybee mating optimization algorithm ,   _Int J Commun Syst_. 2020; 33:e4259. **DOI**: https://doi.org/10.1002/dac.4259 <br>
 *Kouros Zanbouri, Nima Jafari Navimipour*
