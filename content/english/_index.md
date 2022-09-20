@@ -33,6 +33,7 @@ author = "Hugo Authors"
  - International Journal of Communication Systems (Wiley)
  - Concurrent Engineering: Research and Applications (Sage Journals)
  - International Marketing Review (Emerald Group Publishing)
+ - IEEE Access (Institute of Electrical and Electronics Engineers)
 
 <!--
 This file is left intentionally empty by default to be backwards compatible with the initial theme setup.
