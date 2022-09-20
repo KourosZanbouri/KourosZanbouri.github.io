@@ -66,7 +66,7 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[socialIcons]]
 icon = "ai ai-publons-square ai-3x"
 title = "Publons/Web of Science"
-url = "https://publons.com/wos-op/researcher/1789879/kouros-zanbouri/"
+url = "https://www.webofscience.com/wos/author/record/1651032"
 
 
 [[socialIcons]]
