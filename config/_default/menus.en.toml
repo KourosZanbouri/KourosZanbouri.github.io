@@ -11,11 +11,11 @@
 #  url = "/education/"
 #
 #
-#  [[main]]
-#  name = "Posts"
-#  weight = 200
-#  identifier = "posts"
-#  url = "/post/"
+  [[main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
 #
 #  [[main]]
 #  name = "Portfolio"
