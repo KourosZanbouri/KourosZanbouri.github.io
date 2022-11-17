@@ -20,6 +20,8 @@ author = "Hugo Authors"
 
  - A cloud service composition method using a trust-based clustering algorithm and honeybee mating optimization algorithm ,   _Int J Commun Syst_. 2020; 33:e4259. **DOI**: https://doi.org/10.1002/dac.4259 <br>
 *Kouros Zanbouri, Nima Jafari Navimipour*
+ - A New Energy-Aware Method for Gas Lift Allocation in IoT-Based Industries Using a Chemical Reaction-Based Optimization Algorithm ,   Electronics 2022, 11, 3769. **DOI**: https://doi.org/10.3390/electronics11223769 <br>
+*Kouros Zanbouri, Mostafa Razoughi Bastak, Seyed Mehdi Alizadeh, Nima Jafari Navimipour, Senay Yalcin*
 
 
 
