@@ -18,6 +18,10 @@ enableRobotsTXT = true
 # Google Analytics
 #googleAnalytics = "UA-123-45"
 
+[params]
+gtagId = "G-WE97LMG20N"
+
+
 # Syntax highlighting
 pygmentsUseClasses = true   
 pygmentsCodeFences = true
