@@ -1,6 +1,7 @@
 ---
 title: "Bringing Decentralized Search to Decentralized Services"
 date: 2022-11-29T11:22:19+03:30
+description: Bringing Decentralized Search to Decentralized Services with DESEARCH and Kanban 
 ---
 
 There was an interesting topic presented at Usenix OSDi 21 conference, which I summarized in one page :wink: . The main reference is indicated at the end of the summary. If you have the opportunity, I would definitely recommend reading the reference's complete version. Let's get started :heart_eyes::
