@@ -3,7 +3,7 @@ title: "Bringing Decentralized Search to Decentralized Services"
 date: 2022-11-29T11:22:19+03:30
 description: Bringing Decentralized Search to Decentralized Services with DESEARCH and Kanban
 author: "Kouros Zanbouri"
-summary: "Bringing Decentralized Search to Decentralized Services with DESEARCH and Kanban"
+summary: "DESEARCH is a first decentralized search engine, which protects the confidentiality of customer queries while enabling consumers to confirm the accuracy of their search results. DESEARCH provides high throughput with excellent scalability and reduces fault disruptions. Furthermore, it can accomplish the strict latency needed for a search engine to be broadly useable and can grow horizontally with the number of executors"
 tags: ["Decentralization"] #comma separated tags enclosed in double quotes. also used for SEO.
 disableComments: false #Set to 'true' if you need to disable comments for any post 
 ---
