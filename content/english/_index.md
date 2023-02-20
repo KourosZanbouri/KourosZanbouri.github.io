@@ -6,6 +6,7 @@ author = "Hugo Authors"
 
  - **BSc**, Information Technology (IT), Islamic Azad University of Shabestar, Shabestar, Iran
  - **MSc**, Information Technology IT (Computer Networks), Islamic Azad University of Tabriz, Tabriz, Iran
+ - **PhD**, Computer Science, University College Cork (UCC), Cork, Ireland **(Ongoing)**
  
  
 ## Research Interests <i class="fa-solid fa-magnifying-glass fa-xs"></i>
