@@ -37,20 +37,18 @@ disableComments: false #Set to 'true' if you need to disable comments for any po
 2- در قسمت Name هر نامی که دوست داشتین انتخاب کنید ( برای مثال GitHub Fork Checker )
 و در قسمت url کد زیر رو کپی کنید :
 
-```javascript
-javascript:(async () => {
-  /* while on the forks page, collect all the hrefs and pop off the first one (original repo) */
-  const forks = [...document.querySelectorAll('div.repo a:last-of-type')].map(x => x.href).slice(1);
-
-  for (const fork of forks) {
-    /* fetch the forked repo as html, search for the "This branch is [n commits ahead,] [m commits behind]", print it to console */
-    await fetch(fork)
-      .then(x => x.text())
-      .then(html => console.log(`${fork}: ${html.match(/This branch is.*/).pop().replace('This branch is ', '')}`))
-      .catch(console.error);
-  }
-})();
-```
+    javascript:(async () => {
+      /* while on the forks page, collect all the hrefs and pop off the first one (original repo) */
+      const forks = [...document.querySelectorAll('div.repo a:last-of-type')].map(x => x.href).slice(1);
+    
+      for (const fork of forks) {
+        /* fetch the forked repo as html, search for the "This branch is [n commits ahead,] [m commits behind]", print it to console */
+        await fetch(fork)
+          .then(x => x.text())
+          .then(html => console.log(`${fork}: ${html.match(/This branch is.*/).pop().replace('This branch is ', '')}`))
+          .catch(console.error);
+      }
+    })();
 
 
 3- گزینه ی Save رو انتخاب کنید
