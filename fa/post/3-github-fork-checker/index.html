@@ -20,15 +20,18 @@ animated fadeInDown"><div class=post__content><h1>بررسی جدیدترین ن
 <img src=/post-images/postfa_3A1.jpg alt="ساخت بوکمارکلت">
 2- در قسمت Name هر نامی که دوست داشتین انتخاب کنید ( برای مثال GitHub Fork Checker )
 و در قسمت url کد زیر رو کپی کنید :</p><pre><code>javascript:(async () =&gt; {
-</code></pre><p>/* while on the forks page, collect all the hrefs and pop off the first one (original repo) */
-const forks = [&mldr;document.querySelectorAll(&lsquo;div.repo a:last-of-type&rsquo;)].map(x => x.href).slice(1);</p><p>for (const fork of forks) {
-/* fetch the forked repo as html, search for the &ldquo;This branch is [n commits ahead,] [m commits behind]&rdquo;, print it to console */
+/* while on the forks page, collect all the hrefs and pop off the first one (original repo) */
+const forks = [...document.querySelectorAll('div.repo a:last-of-type')].map(x =&gt; x.href).slice(1);
+
+for (const fork of forks) {
+/* fetch the forked repo as html, search for the &quot;This branch is [n commits ahead,] [m commits behind]&quot;, print it to console */
 await fetch(fork)
-.then(x => x.text())
-.then(html => console.log(<code>${fork}: ${html.match(/This branch is.*/).pop().replace('This branch is ', '')}</code>))
-.catch(console.error);
-}
-})();</p><p>3- گزینه ی Save رو انتخاب کنید</p><p>4- وارد لیست فورک های گیتهاب بشید ( در حالت Tree view )
+  .then(x =&gt; x.text())
+  .then(html =&gt; console.log(`${fork}: ${html.match(/This branch is.*/).pop().replace('This branch is ', '')}`))
+  .catch(console.error);
+  }
+  })();
+</code></pre><p>3- گزینه ی Save رو انتخاب کنید</p><p>4- وارد لیست فورک های گیتهاب بشید ( در حالت Tree view )
 <img src=/post-images/postfa_3A2.jpg alt="لیست فورک های گیت هاب درحالت Tree View"></p><p>5- روی بوکمارکی که ساختید کلید کنید تا کد جاوااسکریپت اجرا بشه و مشخصات فورک ها ظاهر بشه
 <img src=/post-images/postfa_3A3.jpg alt="نتایج بعد از اجرای بوکمارکلت"></p><p>همونطور که میبینید نتایج شامل commit ها هستن که با قرمز و سبز نمایش داده شدن. کامیت های سبز نشون دهنده تعداد کامیت های جلوتر از اصلی و قرمز ها، تعداد کامیت های عقب افتاده تر از اصلی هستن&mldr;</p><p>موفق باشید.</p></div><div class=post__footer><span><a class=tag href=/fa/tags/github/>GitHub</a><a class=tag href=/fa/tags/git/>Git</a></span></div></div></main></div><footer class="footer footer__base"><ul class=footer__list><li class=footer__item>&copy;
 Kouros Zanbouri
