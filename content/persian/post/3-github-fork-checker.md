@@ -30,6 +30,7 @@ disableComments: false #Set to 'true' if you need to disable comments for any po
 > **بوکمارکلت** (به [انگلیسی](https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C): ) ترکیبی از [بوکمارک](https://fa.wikipedia.org/wiki/%D8%A8%D9%88%DA%A9%D9%85%D8%A7%D8%B1%DA%A9) و [اپلت](https://fa.wikipedia.org/wiki/%D8%A7%D9%BE%D9%84%D8%AA) است. بوکمارکلت‌ها برنامه‌های [جاوااسکریپتی](https://fa.wikipedia.org/wiki/%D8%AC%D8%A7%D9%88%D8%A7%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA%DB%8C) هستند که به صورت بوکمارک در مرورگرها قابل ذخیره‌سازی‌اند و با کلیک‌کردن کاربر روی آن‌ها اجرا می‌شوند. برنامه‌های داخل بوکمارکلت‌ها می‌توانند با اجزای [صفحه‌ای](https://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87_%D9%88%D8%A8) که در مرورگر در حال نمایش است ارتباط برقرار کنند.
 
 نحوه ساخت بوکمارکلت برای حل این مشکل:
+
 1- بوکمارک جدیدی بسازید ( برای مثال : در کروم روی آیکون ستاره بوکمارک کلیک کنید - در صفحه کوچک باز شده دکمه More  رو انتخاب کنید)
 ![ساخت بوکمارکلت](/post-images/postfa_3A1.jpg)
 2- در قسمت Name هر نامی که دوست داشتین انتخاب کنید ( برای مثال GitHub Fork Checker )
