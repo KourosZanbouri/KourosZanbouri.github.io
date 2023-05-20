@@ -18,6 +18,7 @@ disableComments: false #Set to 'true' if you need to disable comments for any po
 ما در قسمت نمایش فورک های موجود ( View existing forks) دو حالت نمایش داریم :
 
 1-Tree view
+
 2-List view
 
 در حالت لیست ، شما میتونید با استفاده از امکانات موجود گیتهاب، فیلترهایی برای نمایش نتایج قرار بدین. برای مثال میتونید لیست رو بر اساس آخرین آپدیت sort کنید یا بر اساس بیشترین ستاره ( most starred ) و یا فیلترهایی بر اساس بازه زمانی بدین...
