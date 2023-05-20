@@ -19,19 +19,19 @@ animated fadeInDown"><div class=post__content><h1>بررسی جدیدترین ن
 ایجاد <strong>بوکمارکلت</strong></p><blockquote><p><strong>بوکمارکلت</strong> (به <a href=https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C>انگلیسی</a>: ) ترکیبی از <a href=https://fa.wikipedia.org/wiki/%D8%A8%D9%88%DA%A9%D9%85%D8%A7%D8%B1%DA%A9>بوکمارک</a> و <a href=https://fa.wikipedia.org/wiki/%D8%A7%D9%BE%D9%84%D8%AA>اپلت</a> است. بوکمارکلت‌ها برنامه‌های <a href=https://fa.wikipedia.org/wiki/%D8%AC%D8%A7%D9%88%D8%A7%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA%DB%8C>جاوااسکریپتی</a> هستند که به صورت بوکمارک در مرورگرها قابل ذخیره‌سازی‌اند و با کلیک‌کردن کاربر روی آن‌ها اجرا می‌شوند. برنامه‌های داخل بوکمارکلت‌ها می‌توانند با اجزای <a href=https://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87_%D9%88%D8%A8>صفحه‌ای</a> که در مرورگر در حال نمایش است ارتباط برقرار کنند.</p></blockquote><p>نحوه ساخت بوکمارکلت برای حل این مشکل:</p><p>1- بوکمارک جدیدی بسازید ( برای مثال : در کروم روی آیکون ستاره بوکمارک کلیک کنید - در صفحه کوچک باز شده دکمه More رو انتخاب کنید)
 <img src=/post-images/postfa_3A1.jpg alt="ساخت بوکمارکلت">
 2- در قسمت Name هر نامی که دوست داشتین انتخاب کنید ( برای مثال GitHub Fork Checker )
-و در قسمت url کد زیر رو کپی کنید :</p><pre><code>javascript:(async () =&gt; {
-/* while on the forks page, collect all the hrefs and pop off the first one (original repo) */
-const forks = [...document.querySelectorAll('div.repo a:last-of-type')].map(x =&gt; x.href).slice(1);
-
-for (const fork of forks) {
-/* fetch the forked repo as html, search for the &quot;This branch is [n commits ahead,] [m commits behind]&quot;, print it to console */
-await fetch(fork)
-  .then(x =&gt; x.text())
-  .then(html =&gt; console.log(`${fork}: ${html.match(/This branch is.*/).pop().replace('This branch is ', '')}`))
-  .catch(console.error);
-  }
-  })();
-</code></pre><p>3- گزینه ی Save رو انتخاب کنید</p><p>4- وارد لیست فورک های گیتهاب بشید ( در حالت Tree view )
+و در قسمت url کد زیر رو کپی کنید :</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=line><span class=cl><span class=nx>javascript</span><span class=o>:</span><span class=p>(</span><span class=kr>async</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=cm>/* while on the forks page, collect all the hrefs and pop off the first one (original repo) */</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>forks</span> <span class=o>=</span> <span class=p>[...</span><span class=nb>document</span><span class=p>.</span><span class=nx>querySelectorAll</span><span class=p>(</span><span class=s1>&#39;div.repo a:last-of-type&#39;</span><span class=p>)].</span><span class=nx>map</span><span class=p>(</span><span class=nx>x</span> <span class=p>=&gt;</span> <span class=nx>x</span><span class=p>.</span><span class=nx>href</span><span class=p>).</span><span class=nx>slice</span><span class=p>(</span><span class=mi>1</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>for</span> <span class=p>(</span><span class=kr>const</span> <span class=nx>fork</span> <span class=k>of</span> <span class=nx>forks</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=cm>/* fetch the forked repo as html, search for the &#34;This branch is [n commits ahead,] [m commits behind]&#34;, print it to console */</span>
+</span></span><span class=line><span class=cl>    <span class=kr>await</span> <span class=nx>fetch</span><span class=p>(</span><span class=nx>fork</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>      <span class=p>.</span><span class=nx>then</span><span class=p>(</span><span class=nx>x</span> <span class=p>=&gt;</span> <span class=nx>x</span><span class=p>.</span><span class=nx>text</span><span class=p>())</span>
+</span></span><span class=line><span class=cl>      <span class=p>.</span><span class=nx>then</span><span class=p>(</span><span class=nx>html</span> <span class=p>=&gt;</span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=sb>`</span><span class=si>${</span><span class=nx>fork</span><span class=si>}</span><span class=sb>: </span><span class=si>${</span><span class=nx>html</span><span class=p>.</span><span class=nx>match</span><span class=p>(</span><span class=sr>/This branch is.*/</span><span class=p>).</span><span class=nx>pop</span><span class=p>().</span><span class=nx>replace</span><span class=p>(</span><span class=s1>&#39;This branch is &#39;</span><span class=p>,</span> <span class=s1>&#39;&#39;</span><span class=p>)</span><span class=si>}</span><span class=sb>`</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>      <span class=p>.</span><span class=k>catch</span><span class=p>(</span><span class=nx>console</span><span class=p>.</span><span class=nx>error</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>})();</span>
+</span></span></code></pre></div><p>3- گزینه ی Save رو انتخاب کنید</p><p>4- وارد لیست فورک های گیتهاب بشید ( در حالت Tree view )
 <img src=/post-images/postfa_3A2.jpg alt="لیست فورک های گیت هاب درحالت Tree View"></p><p>5- روی بوکمارکی که ساختید کلید کنید تا کد جاوااسکریپت اجرا بشه و مشخصات فورک ها ظاهر بشه
 <img src=/post-images/postfa_3A3.jpg alt="نتایج بعد از اجرای بوکمارکلت"></p><p>همونطور که میبینید نتایج شامل commit ها هستن که با قرمز و سبز نمایش داده شدن. کامیت های سبز نشون دهنده تعداد کامیت های جلوتر از اصلی و قرمز ها، تعداد کامیت های عقب افتاده تر از اصلی هستن&mldr;</p><p>موفق باشید.</p></div><div class=post__footer><span><a class=tag href=/fa/tags/github/>GitHub</a><a class=tag href=/fa/tags/git/>Git</a></span></div></div></main></div><footer class="footer footer__base"><ul class=footer__list><li class=footer__item>&copy;
 Kouros Zanbouri
