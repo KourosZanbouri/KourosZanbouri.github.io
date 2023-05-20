@@ -52,8 +52,10 @@ disableComments: false #Set to 'true' if you need to disable comments for any po
 
 
 3- گزینه ی Save رو انتخاب کنید
+
 4- وارد لیست فورک های گیتهاب بشید ( در حالت Tree view )
 ![لیست فورک های گیت هاب درحالت Tree View](/post-images/postfa_3A2.jpg)
+
 5- روی بوکمارکی که ساختید کلید کنید تا کد جاوااسکریپت اجرا بشه و مشخصات فورک ها ظاهر بشه
 ![نتایج بعد از اجرای بوکمارکلت](/post-images/postfa_3A3.jpg)
 
