@@ -11,4 +11,4 @@ disableComments: false #Set to 'true' if you need to disable comments for any po
 ---
 در این قسمت آموزش بخش دو قرار میگیرد
 
-به زودی
+به زودی در این پست
