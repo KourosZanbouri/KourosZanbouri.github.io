@@ -24,6 +24,8 @@ author = "Hugo Authors"
 *Kouros Zanbouri, Nima Jafari Navimipour*
  - A New Energy-Aware Method for Gas Lift Allocation in IoT-Based Industries Using a Chemical Reaction-Based Optimization Algorithm ,   Electronics 2022, 11, 3769. **DOI**: https://doi.org/10.3390/electronics11223769 <br>
 *Kouros Zanbouri, Mostafa Razoughi Bastak, Seyed Mehdi Alizadeh, Nima Jafari Navimipour, Senay Yalcin*
+- A new fog-based transmission scheduler on the Internet of multimedia things using a fuzzy-based quantum genetic algorithm , IEEE MultiMedia 2023,  **DOI**: https://doi.org/10.1109/MMUL.2023.3247522 <br>
+*Kouros Zanbouri, Hamza Mohammed Ridha Al-Khafaji, Nima Jafari Navimipour, Şenay Yalçın*
 
 
 
