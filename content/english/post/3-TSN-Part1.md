@@ -1,6 +1,6 @@
 ---
 title: "Time-Sensitive Networking - Part 1"
-date: 2023-1-1T15:20:19+02:10
+date: 2023-20-10
 description: My research on TSN - Time-sensitive networking
 series:
   - TSN
