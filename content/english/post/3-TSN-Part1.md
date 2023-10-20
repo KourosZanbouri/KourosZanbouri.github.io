@@ -14,19 +14,19 @@ Today I am going to talk about what I have been researching for the past couple 
 
 Imagine one of your family members living in a remote area for work, and they encounter a severe medical emergency. They need urgent surgery, but there is no specialized surgeon nearby. Their only hope is a remote surgical procedure facilitated by telemedicine. Thanks to TSN, robotic surgical instruments replicate their movements in real-time, allowing them to operate with astonishing accuracy, just as if they were physically present. High-definition video streaming is another lifesaving aspect of TSN in the surgery. The surgeons need a precise, uninterrupted video feed to guide them through the intricate procedure. Without this, there could be disastrous consequences.
 ![telemedicine-TSN](/post-images/postEn_3A1.jpg)
-<p align="center">*Telemedicine-TSN [1]*</p>
+<p align="center">*Telemedicine [1]*</p>
 
 Now, let's change the scenario and go to a bustling industrial automation and manufacturing plant where precision and coordination are paramount. The plant, specializing in producing high-end electronics, is known for its cutting-edge automation systems. The intricate dance of robotic arms, conveyor belts, and assembly stations is a marvel to behold. One day, a massive rush of orders comes in, pushing the plant's production capacity to the limit. This unexpected surge would throw most facilities into chaos, but not this one. Thanks to TSN, synchronized robotics is a given. Robotic arms weld, paint, and assemble with sub-millisecond precision. The production line maintains its pace, unaffected by the added pressure.
 
 Quality control is of utmost importance. Cameras and sensors dot the assembly line, capturing real-time data for inspections.
 ![Industry4.0-TSN](/post-images/postEn_3A2.jpg)
-<p align="center">*Industry4.0-TSN [2]**</p>
+<p align="center">*Industry 4.0 [2]*</p>
 
 Safety is never compromised. TSN is instrumental in managing and distributing safety-critical information throughout the plant. Emergency stop signals, collision avoidance alerts, and other safety-related messages are communicated with minimal latency, ensuring the protection of the workforce.
 
 Even equipment maintenance is streamlined. Predictive maintenance systems rely on TSN to provide real-time data on machinery performance. Any sign of wear or impending failure is instantly reported, allowing for proactive maintenance, avoiding costly breakdowns and downtime.
 
-**SO what is TSN?**
+**SO what is TSN :cowboy_hat_face: ? ** 
 
 IEEE 802.1 **Time-Sensitive Networking** (**TSN**) is a set of standards and tools that uses **Ethernet** to achieve **real-time deterministic communications with low latency and high reliability**
 
