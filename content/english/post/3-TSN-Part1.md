@@ -26,7 +26,7 @@ Safety is never compromised. TSN is instrumental in managing and distributing sa
 
 Even equipment maintenance is streamlined. Predictive maintenance systems rely on TSN to provide real-time data on machinery performance. Any sign of wear or impending failure is instantly reported, allowing for proactive maintenance, avoiding costly breakdowns and downtime.
 
-**SO what is TSN ** :cowboy_hat_face: ? 
+**SO what is TSN ?** :cowboy_hat_face:
 
 **IEEE 802.1 Time-Sensitive Networking** (**TSN**) is a set of standards and tools that uses **Ethernet** to achieve **real-time deterministic communications with low latency and high reliability**
 
