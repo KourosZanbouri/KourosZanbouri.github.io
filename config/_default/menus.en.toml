@@ -4,52 +4,8 @@
   weight = 100
   url = "/"
 
-#  [[main]]
-#  name = "Educations"
-#  weight = 150
-#  identifier = "educations"
-#  url = "/education/"
-#
-#
   [[main]]
   name = "Posts"
   weight = 200
   identifier = "posts"
   url = "/post/"
-#
-#  [[main]]
-#  name = "Portfolio"
-#  weight = 300
-#  identifier = "portfolio"
-#  url = "/portfolio/"
-#
-#  [[main]]
-#  name = "About"
-#  weight = 400
-#  identifier = "about"
-#  url = "/about/"
-#
-#  [[main]]
-#  name = "Accomplishments"
-#  weight = 500
-#  identifier = "accomplishments"
-#
-# [[main]]
-#  name = "Awards"
-#  weight = 510
-#  identifier = "awards"
-#  url = "/awards/"
-#  parent = "accomplishments"  
-#
-#  [[main]]
-#  name = "Certifications"
-#  weight = 520
-#  identifier = "certifications"
-#  url = "/certifications/"
-#  parent = "accomplishments"
-#
-#  [[main]]
-#  name = "Contact"
-#  weight = 600
-#  identifier = "contact"
-#  url = "/contact/"
