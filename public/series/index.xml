@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Series on My Website</title><link>https://kouroszanbouri.github.io/series/</link><description>Recent content in Series on My Website</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate><atom:link href="https://kouroszanbouri.github.io/series/index.xml" rel="self" type="application/rss+xml"/><item><title>TSN</title><link>https://kouroszanbouri.github.io/series/tsn/</link><pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate><guid>https://kouroszanbouri.github.io/series/tsn/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on My Website</title>
+    <link>http://localhost:1313/series/</link>
+    <description>Recent content in Series on My Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TSN</title>
+      <link>http://localhost:1313/series/tsn/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>http://localhost:1313/series/tsn/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
