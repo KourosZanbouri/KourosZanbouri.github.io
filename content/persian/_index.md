@@ -10,6 +10,7 @@ author = "Hugo Authors"
  - **پی‌اچ‌دی**, علوم کامپیوتر - محقق ، کالج دانشگاهی کورک ( UCC ) ، کورک ، ایرلند **(در حال تحصیل)**
  
  
+ ---
 ## <i class="fa-solid fa-magnifying-glass fa-xs"></i> علایق پژوهشی
  - رایانش ابری
  - رایانش مه
@@ -18,6 +19,7 @@ author = "Hugo Authors"
  - اینترنت اشیا (IoT)
  - یادگیری ماشین
 
+---
 ## <i class="fa-solid fa-pen-fancy fa-xs"></i> مقالات
 
  - A cloud service composition method using a trust-based clustering algorithm and honeybee mating optimization algorithm ,   _Int J Commun Syst_. 2020; 33:e4259. **DOI**: https://doi.org/10.1002/dac.4259 <br>
@@ -28,8 +30,8 @@ author = "Hugo Authors"
 *Kouros Zanbouri, Hamza Mohammed Ridha Al-Khafaji, Nima Jafari Navimipour, Şenay Yalçın*
 
 
-
-## <i class="fa-solid fa-building-columns fa-xs"></i>خدمات آکادمیک
+---
+## <i class="fa-solid fa-building-columns fa-xs"></i> خدمات آکادمیک
 **داور میهمان برای:**
 
  - Journal of Ambient Intelligence and Humanized Computing (Springer
@@ -42,6 +44,11 @@ author = "Hugo Authors"
  - IEEE Access (Institute of Electrical and Electronics Engineers)
 
 
+ **کمیته برنامه‌ ریزی علمی کنفرانس:**
+ - 2024 IEEE World Forum on Public Safety Technology (WF-PST)
+ 
+  **عضو کمیته:**
+ - 2024 Irish Collegiate Programming Competition (IrlCPC)
 
 
 
