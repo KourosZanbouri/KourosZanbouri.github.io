@@ -4,30 +4,23 @@
     <title>Openstack on وبسایت من</title>
     <link>http://localhost:1313/fa/tags/openstack/</link>
     <description>Recent content in Openstack on وبسایت من</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>fa</language>
-    <lastBuildDate>Wed, 01 Feb 2023 10:49:18 +0330</lastBuildDate><atom:link href="http://localhost:1313/fa/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 10:49:18 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/fa/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش دوم</title>
       <link>http://localhost:1313/fa/post/2-openstack_fa/</link>
       <pubDate>Wed, 01 Feb 2023 10:49:18 +0330</pubDate>
-      
       <guid>http://localhost:1313/fa/post/2-openstack_fa/</guid>
-      
-        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش دوم</description>
-      
+      <description>&lt;p&gt;در این قسمت آموزش بخش دو قرار میگیرد&lt;/p&gt;&#xA;&lt;p&gt;به زودی در این پست&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش اول</title>
       <link>http://localhost:1313/fa/post/1-openstack_fa/</link>
       <pubDate>Mon, 28 Nov 2022 22:49:18 +0330</pubDate>
-      
       <guid>http://localhost:1313/fa/post/1-openstack_fa/</guid>
-      
-        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول</description>
-      
+      <description>آموزش اپن استک به صورت مختصر وعملی</description>
     </item>
-    
   </channel>
 </rss>

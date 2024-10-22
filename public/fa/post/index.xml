@@ -4,52 +4,37 @@
     <title>Posts on وبسایت من</title>
     <link>http://localhost:1313/fa/post/</link>
     <description>Recent content in Posts on وبسایت من</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>fa</language>
-    <lastBuildDate>Wed, 22 May 2024 10:49:18 +0330</lastBuildDate><atom:link href="http://localhost:1313/fa/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 May 2024 10:49:18 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/fa/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>تست چهارم</title>
-      <link>http://localhost:1313/fa/post/4-test2/</link>
+      <title>مدیریت دسترسی به مدیوم در شبکه های بی سیم</title>
+      <link>http://localhost:1313/fa/post/4-macin80211/</link>
       <pubDate>Wed, 22 May 2024 10:49:18 +0330</pubDate>
-      
-      <guid>http://localhost:1313/fa/post/4-test2/</guid>
-      
-        <description>این یک تست میباشد</description>
-      
+      <guid>http://localhost:1313/fa/post/4-macin80211/</guid>
+      <description>سیستم‌های شبکه‌های بی‌سیم (Wireless Networks) به منظور ارتباط بیشتر و بهبود کارایی و برای مدیریت دسترسی به مدیوم (Medium Access Control - MAC) که یکی از جنبه‌های حیاتی در شبکه‌های بی‌سیم است ، به تنظیم دسترسی گره‌ها به کانال ارتباطات می‌پردازد.</description>
     </item>
-    
     <item>
       <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش دوم</title>
       <link>http://localhost:1313/fa/post/2-openstack_fa/</link>
       <pubDate>Wed, 01 Feb 2023 10:49:18 +0330</pubDate>
-      
       <guid>http://localhost:1313/fa/post/2-openstack_fa/</guid>
-      
-        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش دوم</description>
-      
+      <description>&lt;p&gt;در این قسمت آموزش بخش دو قرار میگیرد&lt;/p&gt;&#xA;&lt;p&gt;به زودی در این پست&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>بررسی جدیدترین نسخه fork در گیت هاب</title>
       <link>http://localhost:1313/fa/post/3-github-fork-checker/</link>
       <pubDate>Thu, 05 Jan 2023 22:49:18 +0330</pubDate>
-      
       <guid>http://localhost:1313/fa/post/3-github-fork-checker/</guid>
-      
-        <description>بررسی جدیدترین نسخه fork در گیت هاب</description>
-      
+      <description>نحوه بررسی نسخه وتغییرات نسخه های مختلف fork شده در گیت هاب</description>
     </item>
-    
     <item>
       <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش اول</title>
       <link>http://localhost:1313/fa/post/1-openstack_fa/</link>
       <pubDate>Mon, 28 Nov 2022 22:49:18 +0330</pubDate>
-      
       <guid>http://localhost:1313/fa/post/1-openstack_fa/</guid>
-      
-        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول</description>
-      
+      <description>آموزش اپن استک به صورت مختصر وعملی</description>
     </item>
-    
   </channel>
 </rss>

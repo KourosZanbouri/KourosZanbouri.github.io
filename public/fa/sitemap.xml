@@ -15,10 +15,13 @@
                 href="http://localhost:1313/fa/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fa/tags/git/</loc>
+    <loc>http://localhost:1313/fa/tags/distributed-coordination-function/</loc>
     <lastmod>2024-05-22T10:49:18+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fa/tags/github/</loc>
+    <loc>http://localhost:1313/fa/tags/hybrid-coordination-function/</loc>
+    <lastmod>2024-05-22T10:49:18+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fa/tags/ieee-802.11/</loc>
     <lastmod>2024-05-22T10:49:18+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/fa/tags/index/</loc>
@@ -33,6 +36,15 @@
                 hreflang="fa"
                 href="http://localhost:1313/fa/tags/index/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/fa/tags/mac/</loc>
+    <lastmod>2024-05-22T10:49:18+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fa/tags/medium-access-control/</loc>
+    <lastmod>2024-05-22T10:49:18+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fa/tags/point-coordination-function/</loc>
+    <lastmod>2024-05-22T10:49:18+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/fa/post/</loc>
     <lastmod>2024-05-22T10:49:18+03:30</lastmod>
@@ -60,7 +72,7 @@
                 href="http://localhost:1313/fa/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fa/post/4-test2/</loc>
+    <loc>http://localhost:1313/fa/post/4-macin80211/</loc>
     <lastmod>2024-05-22T10:49:18+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/fa/tags/cloud/</loc>
@@ -99,6 +111,12 @@
   </url><url>
     <loc>http://localhost:1313/fa/tags/%D8%A7%D9%BE%D9%86-%D8%A7%D8%B3%D8%AA%DA%A9/</loc>
     <lastmod>2023-02-01T10:49:18+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fa/tags/git/</loc>
+    <lastmod>2023-01-05T22:49:18+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fa/tags/github/</loc>
+    <lastmod>2023-01-05T22:49:18+03:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/fa/post/3-github-fork-checker/</loc>
     <lastmod>2023-01-05T22:49:18+03:30</lastmod>

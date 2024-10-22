@@ -4,7 +4,8 @@
     <title>Categories on وبسایت من</title>
     <link>http://localhost:1313/fa/categories/</link>
     <description>Recent content in Categories on وبسایت من</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fa</language><atom:link href="http://localhost:1313/fa/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>fa</language>
+    <atom:link href="http://localhost:1313/fa/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

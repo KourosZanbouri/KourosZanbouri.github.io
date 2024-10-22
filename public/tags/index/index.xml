@@ -4,19 +4,16 @@
     <title>Index on My Website</title>
     <link>http://localhost:1313/tags/index/</link>
     <description>Recent content in Index on My Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
       <link>http://localhost:1313/post/</link>
       <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
-      
       <guid>http://localhost:1313/post/</guid>
-      
-        <description></description>
-      
+      <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -4,19 +4,16 @@
     <title>Apple on My Website</title>
     <link>http://localhost:1313/tags/apple/</link>
     <description>Recent content in Apple on My Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Aug 2023 10:30:19 +0330</lastBuildDate><atom:link href="http://localhost:1313/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 10:30:19 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/apple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iPhone 8 Battery Replacement</title>
       <link>http://localhost:1313/post/2-iphone8battery/</link>
       <pubDate>Wed, 02 Aug 2023 10:30:19 +0330</pubDate>
-      
       <guid>http://localhost:1313/post/2-iphone8battery/</guid>
-      
-        <description>iPhone 8 Battery Replacement</description>
-      
+      <description>Determined to revive my iPhone 8&amp;rsquo;s fading battery, I searched for repair options but found them costly, so I chose to do it myself. Confronted with a challenge as the screws refused to budge, I used a toothpick and superglue ingeniously, successfully replacing the battery and achieving a triumphant and cost-effective restoration.</description>
     </item>
-    
   </channel>
 </rss>

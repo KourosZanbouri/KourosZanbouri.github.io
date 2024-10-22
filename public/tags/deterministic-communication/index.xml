@@ -4,19 +4,16 @@
     <title>Deterministic Communication on My Website</title>
     <link>http://localhost:1313/tags/deterministic-communication/</link>
     <description>Recent content in Deterministic Communication on My Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/deterministic-communication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/deterministic-communication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Time-Sensitive Networking - Part 1</title>
       <link>http://localhost:1313/post/3-tsn-part1/</link>
       <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
-      
       <guid>http://localhost:1313/post/3-tsn-part1/</guid>
-      
-        <description>My research on TSN - Time-sensitive networking</description>
-      
+      <description>Time-Sensitive Networking (TSN) IEEE 802.1 is a set of standards and tools that uses Ethernet to achieve real-time deterministic communications with low latency and high reliability. The TSN technology is based on four basic key concepts, accurate time synchronization, bounded guaranteed low latency, ultra reliability and resource management.</description>
     </item>
-    
   </channel>
 </rss>
