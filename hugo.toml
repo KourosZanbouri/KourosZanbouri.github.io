@@ -1,0 +1,4 @@
+baseURL = 'https://kouroszanbouri.github.io/'
+languageCode = 'en-us'
+title = 'main website'
+theme = 'anatole'
