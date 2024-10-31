@@ -1,10 +1,143 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on main website</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on main website</description>
+    <title>Tags on </title>
+    <link>https://kouroszanbouri.github.io/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate><atom:link href="https://kouroszanbouri.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5G TSN</title>
+      <link>https://kouroszanbouri.github.io/tags/5g-tsn/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/5g-tsn/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deterministic Communication</title>
+      <link>https://kouroszanbouri.github.io/tags/deterministic-communication/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/deterministic-communication/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>High Reliability</title>
+      <link>https://kouroszanbouri.github.io/tags/high-reliability/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/high-reliability/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      <link>https://kouroszanbouri.github.io/tags/index/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/index/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Low Latency</title>
+      <link>https://kouroszanbouri.github.io/tags/low-latency/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/low-latency/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Real-Time Communication</title>
+      <link>https://kouroszanbouri.github.io/tags/real-time-communication/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/real-time-communication/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Time-Sensitive Networking</title>
+      <link>https://kouroszanbouri.github.io/tags/time-sensitive-networking/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/time-sensitive-networking/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>TSN</title>
+      <link>https://kouroszanbouri.github.io/tags/tsn/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/tsn/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wireless Networks</title>
+      <link>https://kouroszanbouri.github.io/tags/wireless-networks/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/wireless-networks/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wireless TSN</title>
+      <link>https://kouroszanbouri.github.io/tags/wireless-tsn/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/wireless-tsn/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Apple</title>
+      <link>https://kouroszanbouri.github.io/tags/apple/</link>
+      <pubDate>Wed, 02 Aug 2023 10:30:19 +0330</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/apple/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Decentralization</title>
+      <link>https://kouroszanbouri.github.io/tags/decentralization/</link>
+      <pubDate>Tue, 29 Nov 2022 11:22:19 +0330</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/tags/decentralization/</guid>
+      
+        <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
