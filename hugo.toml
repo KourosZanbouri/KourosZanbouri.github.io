@@ -87,6 +87,7 @@ copyright = "2020-{{ YEAR }}"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
+contentratio = 0.7
 # example ["css/custom.css"]
 #customCss = ["css/academicons.css", "css/academicons.min.css"]
 # example ["js/custom.js"]
@@ -114,7 +115,7 @@ listDateFormat = "2/1/2006"
 
 reversepagetitle = true # When set to 'true', the Window Title will be reversed to 'Title | Author' instead of the default 'Author | Title'
 
-# hidesidebar = true
+#hidesidebar = true
 
 [simpleAnalytics]
 # enable = true

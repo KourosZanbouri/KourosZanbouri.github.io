@@ -12,22 +12,39 @@ author = "Hugo Authors"
  
  ---
 ## <i class="fa-solid fa-magnifying-glass fa-xs"></i> علایق پژوهشی
+ - شبکه های کامپیوتری
  - رایانش ابری
- - رایانش مه
  - بهینه سازی مهندسی
  - الگوریتم‌های فراابتکاری/فراتکاملی/فرااکتشافی
  - اینترنت اشیا (IoT)
- - یادگیری ماشین
 
 ---
 ## <i class="fa-solid fa-pen-fancy fa-xs"></i> مقالات
 
- - A cloud service composition method using a trust-based clustering algorithm and honeybee mating optimization algorithm ,   _Int J Commun Syst_. 2020; 33:e4259. **DOI**: https://doi.org/10.1002/dac.4259 <br>
-*Kouros Zanbouri, Nima Jafari Navimipour*
- - A New Energy-Aware Method for Gas Lift Allocation in IoT-Based Industries Using a Chemical Reaction-Based Optimization Algorithm ,   Electronics 2022, 11, 3769. **DOI**: https://doi.org/10.3390/electronics11223769 <br>
-*Kouros Zanbouri, Mostafa Razoughi Bastak, Seyed Mehdi Alizadeh, Nima Jafari Navimipour, Senay Yalcin*
-- A new fog-based transmission scheduler on the Internet of multimedia things using a fuzzy-based quantum genetic algorithm , IEEE MultiMedia 2023,  **DOI**: https://doi.org/10.1109/MMUL.2023.3247522 <br>
-*Kouros Zanbouri, Hamza Mohammed Ridha Al-Khafaji, Nima Jafari Navimipour, Şenay Yalçın*
+ - **A cloud service composition method using a trust-based clustering algorithm and honeybee mating optimization algorithm**  
+    Kouros Zanbouri, Nima Jafari Navimipour  
+   _Int J Commun Syst_. 2020; 33:e4259.  
+   **DOI**: https://doi.org/10.1002/dac.4259 
+
+ - **A New Energy-Aware Method for Gas Lift Allocation in IoT-Based Industries Using a Chemical Reaction-Based Optimization Algorithm**  
+   _Electronics_ 2022, 11, 3769.  
+   Kouros Zanbouri, Mostafa Razoughi Bastak, Seyed Mehdi Alizadeh, Nima Jafari Navimipour, Senay Yalcin  
+   **DOI**: https://doi.org/10.3390/electronics11223769
+ 
+ - **A new fog-based transmission scheduler on the Internet of multimedia things using a fuzzy-based quantum genetic algorithm**  
+   Kouros Zanbouri, Hamza Mohammed Ridha Al-Khafaji, Nima Jafari Navimipour, Şenay Yalçın  
+   _IEEE MultiMedia_ 2023  
+   **DOI**: https://doi.org/10.1109/MMUL.2023.3247522
+
+ - **A GSO‐based multi‐objective technique for performance optimization of blockchain‐based industrial Internet of things**  
+   Kouros Zanbouri, Mehdi Darbandi, Mohammad Nassr, Arash Heidari, Nima Jafari Navimipour, Senay Yalcın  
+   _Int J Commun Syst_. 2024; 37(15):e5886.   
+   **DOI**: https://doi.org/10.1002/dac.5886   
+   
+ - **A Comprehensive Survey of Wireless Time-Sensitive Networking (TSN): Architecture, Technologies, Applications, and Open Issues**  
+   Kouros Zanbouri, Md. Noor-A-Rahim, Jobish John, Cormac J. Sreenan, H. Vincent Poor, Dirk Pesch  
+   _IEEE Communications Surveys & Tutorials_ 2024  
+   **DOI**: https://doi.org/10.1109/COMST.2024.3486618
 
 
 ---
