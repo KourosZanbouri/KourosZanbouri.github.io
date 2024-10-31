@@ -1,0 +1,650 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <title>
+    
+      
+        آموزش Openstack و آشنایی با OpenMetal.io - بخش اول |
+      Kouros Zanbouri
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.136.5"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Kouros Zanbouri" />
+  <meta
+    name="description"
+    content="آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.8d4fad7e6916ad2e291e8d97ada157c70350d6d7150fea137e7243340967befb.css"
+      integrity="sha256-jU&#43;tfmkWrS4pHo2XraFXxwNQ1tcVD&#43;oTfnJDNAlnvvs="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="http://localhost:1313/persian/post/1-openstack_fa/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="آموزش Openstack و آشنایی با OpenMetal.io - بخش اول">
+  <meta name="twitter:description" content="آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول">
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/persian/post/1-openstack_fa/">
+  <meta property="og:site_name" content="Kouros Zanbouri">
+  <meta property="og:title" content="آموزش Openstack و آشنایی با OpenMetal.io - بخش اول">
+  <meta property="og:description" content="آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="persian">
+    <meta property="article:published_time" content="2022-11-28T22:49:18+03:30">
+    <meta property="article:modified_time" content="2022-11-28T22:49:18+03:30">
+    <meta property="article:tag" content="Openstack">
+    <meta property="article:tag" content="OpenMetal">
+    <meta property="article:tag" content="Cloud">
+    <meta property="article:tag" content="Cloud Computing">
+    <meta property="article:tag" content="اپن استک">
+    <meta property="article:tag" content="ابر">
+      <meta property="og:see_also" content="http://localhost:1313/persian/post/2-openstack_fa/">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "persian",
+        "name": "آموزش Openstack و آشنایی با OpenMetal.io - بخش اول",
+        "headline": "آموزش Openstack و آشنایی با OpenMetal.io - بخش اول",
+        "alternativeHeadline": "",
+        "description": "
+      آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/persian\/post\/1-openstack_fa\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-11-28T22:49:18.00Z",
+        "datePublished": "2022-11-28T22:49:18.00Z",
+        "dateModified": "2022-11-28T22:49:18.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Kouros Zanbouri",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "http:\/\/localhost:1313\/persian\/post\/1-openstack_fa\/",
+        "wordCount" : "1212",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "Openstack"
+
+    
+      
+        ,
+
+      
+      "OpenMetal"
+
+    
+      
+        ,
+
+      
+      "Cloud"
+
+    
+      
+        ,
+
+      
+      "Cloud computing"
+
+    
+      
+        ,
+
+      
+      "اپن استک"
+
+    
+      
+        ,
+
+      
+      "ابر"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Kouros Zanbouri</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://scholar.google.com/citations?user=0Xr6wVQAAAAJ&amp;hl=en"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Google Scholar"
+            title="Google Scholar"
+          >
+            <i class="fab fa-google-scholar fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://orcid.org/0000-0003-0252-8282"
+            target="_blank"
+            rel="noopener me"
+            aria-label="orcid"
+            title="orcid"
+          >
+            <i class="fab fa-orcid fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.researchgate.net/profile/Kouros-Zanbouri-2"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Researchgate"
+            title="Researchgate"
+          >
+            <i class="fab fa-researchgate fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/kouros-zanbouri/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/KourosZanbouri/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.instagram.com/kouroszanbouri/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="instagram"
+            title="instagram"
+          >
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:mail@example.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://t.me/KourosZ"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fab fa-telegram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.webofscience.com/wos/author/record/1651032"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Publons/Web of Science"
+            title="Publons/Web of Science"
+          >
+            <i class="ai ai-publons-square ai-3x fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WE97LMG20N"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WE97LMG20N');
+        }
+      </script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>آموزش Openstack و آشنایی با OpenMetal.io - بخش اول</h1>
+      
+      <p>در این مطلب میخوام آموزشی مختصر ، مفید و به صورت عملی برای یادگیری openstack داشته باشیم. این آموزش مناسب کسایی هست که دانش شبکه دارن و مفاهیم (تعاریف) ابتدایی اپن استک (openstack) روهم بلدن. اگر فکر می کنید مفاهیم و تعاریف ابتدایی رو بلد نیستین میتونین با یک جستجوی ساده در گوگل:</p>
+<p><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%88%D9%BE%D9%86%E2%80%8C%D8%A7%D8%B3%D8%AA%DA%A9">تعاریف Openstack</a></p>
+<p><a href="https://www.google.com/search?q=OpenStack%20%DA%86%DB%8C%D8%B3%D8%AA%D8%9F&sourceid=chrome&ie=UTF-8">آموزش openstack</a></p>
+<p>یاد بگیرین. یادگیری تعاریف کار سختی نیست.
+این آموزش برای کسایی که میخوان در کوتاه ترین زمان به صورت خیلی راحت با اپن استک آشنا بشن.</p>
+<p>پس شروع می کنیم :</p>
+<p>1- <strong>اپن استک</strong> چیست :</p>
+<blockquote>
+<p>سیستم OpenStack به مجموعه ‌ای از ابزارهای نرم‌ افزاری متن باز گفته می شود که به منظور ساختن و مدیریت کردن زیرساخت ‌های رایانش ابری شامل ابرهای خصوصی و عمومی بکار می ‌رود و حوزه عملیاتی آن در رایانش ابری، ارائه زیرساخت به عنوان سرویس یا IaaS می باشد. این پروژه‌ی متن باز به کمک تعداد زیادی کمپانی بزرگ که سال‌هاست در زمینه های مختلف شبکه و… فعالیت دارند و هزاران توسعه دهنده دیگر، توسعه می یابد.</p>
+</blockquote>
+<p>2- <strong>اجزای (Component) های مورد استفاده در این آموزش</strong>  :</p>
+<ul>
+<li>داشبورد Horizon ( به فارسی افق): اولین صفحه ای که کاربر بعد از ورود به سیستم اپن استک باهاش روبه رو میشه! با استفاده از این رابط کاربری، شما میتونید به سایر اجزا دسترسی داشته باشین و به راحتی قسمت های مختلف رو مدیریت کنید</li>
+<li>بخش Nova: ابزاری برای تولید و مدیریت ماشین های مجازی محاسباتی</li>
+<li>بخش Keystone: ابزاری برای مدیریت هویت و دسترسی کاربران با توجه نقش تعریف شده با استفاده از کلیدهای مختلف</li>
+<li>بخش Glance: ابزاری برای مدیریت image ها بر روی ماشین های مجازی و بارگذاری image های جدید بر روی ماشین های مجازی جدید</li>
+<li>بخش Neutron : ابزاری برای شبکه سازی و مدیریت شبکه</li>
+</ul>
+<p>شما به عنوان کاربر مبتدی، چند راه برای راه اندازی اپن استک با هدف یادگیری دارید:
+1- پیاده سازی اپن استک روی سیستم/ سرور شخصی
+2- استفاده از زیرساخت های شرکت های ابری خارجی یا داخلی</p>
+<p>آموزش های زیادی برای نصب و پیاده سازی اپن استک روی سیستم عامل های : ابونتو سرور ( Ubuntu server ) - سنت او اس ( CentOS ) و دبیان (Debian) وجود داره که میتونید نمونه های اون رو در لینک های زیر مطالعه کنید:</p>
+<p><a href="https://www.digitalocean.com/community/tutorials/install-openstack-ubuntu-devstack">https://www.digitalocean.com/community/tutorials/install-openstack-ubuntu-devstack</a></p>
+<p><a href="https://www.linuxtechi.com/install-openstack-centos-8-with-packstack/">https://www.linuxtechi.com/install-openstack-centos-8-with-packstack/</a></p>
+<p><a href="https://unixcop.com/how-to-install-openstack-ubuntu-debian-servers-with-devstack/">https://unixcop.com/how-to-install-openstack-ubuntu-debian-servers-with-devstack/</a></p>
+<p>البته توجه کنید که برای نصب اپن استک باید حداقل سیستمی با مشخصات زیر در دسترس داشته باشین:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">شرایط</th>
+          <th style="text-align: center">حداقل (Minimum)</th>
+          <th style="text-align: center">پیشنهادی (Recommended)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CPU</td>
+          <td style="text-align: center">با 4 هسته 2.4 Ghz</td>
+          <td style="text-align: center">با 24 هسته 2.67 GHz</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">RAM</td>
+          <td style="text-align: center">هشت گیگ</td>
+          <td style="text-align: center">24 گیگ یا بیشتر</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">HDD</td>
+          <td style="text-align: center">2 عدد 500 GB (7200 rpm)</td>
+          <td style="text-align: center">4 عدد 500 GB (7200 rpm)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">RAID</td>
+          <td style="text-align: center">نرم افزاری RAID-1</td>
+          <td style="text-align: center">RAID-1 سخت افزاری</td>
+      </tr>
+  </tbody>
+</table>
+<p>با توجه به نیاز سخت افزارهای گران قیمت و دشوار بودن مراحل کانفیگ و نصب اپن استک، برای یادگیری ما به سمت راهکار بهتری میریم :</p>
+<h1 id="معرفی-openmetalio">معرفی OpenMetal.io</h1>
+<blockquote>
+<p>اولین ابر خصوصی بر اساس تقاضا در جهان</p>
+</blockquote>
+<blockquote>
+<p>بدون ساختن، بدون انتظار، بدون مدیریت سخت افزار. ابر خصوصی شما در 45 ثانیه.</p>
+</blockquote>
+<blockquote>
+<p>اپن متال (OpenMetal) برای گرد هم آوردن آنچه که ما در مورد متن باز اعتقاد داریم و آنچه را که به عنوان یک مکمل حیاتی برای آینده فناوری اطلاعات می دانیم، ایجاد شده است.</p>
+</blockquote>
+<p>این توضیحاتی بود که این کمپانی در رابطه با خودش ارائه داده. این شرکت با ارائه منابع  مورد نیاز، به صورت رایگان/آزمایشی به شما این امکان رو میده بدون صرف هزینه ، با منابع واقعی و بدون دردسر نصب و راه‌اندازی  با محیط اپن استک کار کنید.
+این شرکت به صورت رایگان :</p>
+<ul>
+<li>برای اشخاص : 1 ابر ، 32 ساعت ، 3 بار استفاده در ماه</li>
+<li>برای شرکت ها: 1 ابر ، 5 روز ، 3 بار استفاده در ماه</li>
+<li>برای شرکای متن باز : 1 ابر ، 5 روز ، 3 بار استفاده در ماه</li>
+</ul>
+<p>فراهم می کنه. برای مثال شما ( به عنوان یک فرد ) میتونید پس از ساختن اکانت به صورت رایگان ، یک ابر خصصوصی دریافت کنید و 32 ساعت از منابع اون استفاده کنید . بعد از گذشت 32 ساعت ، منابع و ابر شما از بین خواهد رفت ( البته میتونید با پرداخت هزینه از حالت آزمایشی خارج کنید و به مدت دلخواه استفاده کنید ). دریافت ابر آزمایشی برای سه بار در ماه به صورت رایگان امکان‌پذیره. ابر اختصصاص داده شده از سه سرور-کلاستر (با کانفیگ دلخواه) تشکیل شده.</p>
+<p>در زمان نگارش این مقاله : من مدتی پیش اکانت رایگانی ساختم و با مکاتباتی که با این شرکت انجام دادم وعنوان کردن هدفم ( آموزش و یادگیری عملی اپن استک ) با توجه به رشته تحصیلی و تحقیقی و  عدم امکان ارائه کارت بانکی بین المللی( به دلیل تحریم ها ) با درخواست من موافقت شد و تونستم از امکانات رایگان این مجموعه استفاده کنم.
+البته این شرکت مدتی بعد اعلام کرد به دلیل هزینه بالای 3 سرور اختصاص داده شده به صورت رایگان و امکان سو استفاده کاربران ، کاربران باید احراز هویت شن به این صورت که مشخصات کارت اعتباری ثبت بشه و یک دلار کم بشه ! که فکر می کنم کاربران ایرانی با استفاده از سرویس هایی مثل ایرانیکارت ، تهران پیمنت و سرویس های مشابه ،بتونن این کار رو با هزینه کم انجام بدن ( من تست نکردم - خودتون تست کنید و به منم نتیجه رو اعلام کنید )</p>
+<p>برای <strong>شروع</strong>  ابتدا وارد لینک زیر بشید و ثبت نام کنید</p>
+<p><a href="https://central.openmetal.io/sign-up">https://central.openmetal.io/sign-up</a></p>
+<p>بعد از ساخت اکانت و تایید آدرس ایمیل ( مراحل ساده اس ونیاز به توضیح نیست ) وارد اکانت بشید
+و در <a href="https://central.openmetal.io/clouds">صفحه اول</a> با زدن کلید
+<img alt="دکمه Get Started" src="/post-images/postfa_1A1.jpg">
+شروع می کنیم! در صفحه بعد ، از بین دو گزینه  Personal Cloud و  Organization Cloud، با توجه به شخص حقیقی بودن، از گزینه ی Personal Cloud روی دکمه Get Started کلید میکنیم
+نکته :  خاموش/غیر فعال بودن این دکمه، به معنی عدم تایید هویت شما توسط شرکت OpenMetal که میتونید با ایجاد تیکت و توضیح دادن شرایط (با هدف آموزش) درخواست تایید هویت کنید.
+<img alt="دکمه Start for free" src="/post-images/postfa_1A2.jpg">
+در این قسمت ، انواع کانفیگ های موجود و قابل ارائه به کاربر رو مشاهده میکنید ( با دو نسل مختلف سخت افزاری). با توجه به اینکه ما قصد  استفاده از منابع رایگان داریم فقط میتونیم از نسل اول سخت افزاری و کانفیگ اول ( Cloud core-Small ) استفاده کنیم ( به صورت رایگان). البته توجه کنید که با پرداخت هزینه میتونید کانفیگ های دیگه رو هم انتخاب کنید.</p>
+<p>در صفحه Cloud description، قسمت Cloud Name اسم دلخواهی به عنوان نام ابر انتخاب کنید و Next رو بزنید
+<img alt="Cloud description" src="/post-images/postfa_1A3.jpg">
+در قسمت Payment Information شما دو انتخاب دارید :</p>
+<p>انتخاب Yes: با انتخاب این گزینه ابر ساخته شده شما، بعد از 32 ساعت ( زمان تریال/آزمایشی) از بین نخواهد رفت و شما باید در مرحله بعد اطلاعات کارت اعتباری را وارد کنید</p>
+<p>انتخاب No:ابر ساخته شده بعد از گذشت زمان آزمایشی، از بین خواهد رفت.
+<img alt="Payment Information" src="/post-images/postfa_1A4.jpg">
+با توجه به آموزشی بودن و عدم نیاز به ابر ساخته شده بعد از اتمام زمان، گزینه No را انتخاب میکنیم و با زدن Deploy ابر مورد نیاز ما ساخته میشود.</p>
+<p>شما موفق شدید! ابر شما ساخته شد ! بلافصله ایمیلی دریافت می کنید که اتمام مرحله ساخت ابر را خبر میده. به صورت اتوماتیک به پنل مدیریت ابر خودتون انتقال پیدا میکنید ( در صورت بستن صفحه به صورت اشتباهی ، میتونید از لینک ارسال شده به ایمیلتون، وارد صفحه مدیریت ابر بشین )
+<img alt="Payment Information" src="/post-images/postfa_1A5.jpg"></p>
+<p>در قسمت بعدی آموزش، مدیریت ابر شخصی از طریق پنل مرکزی OpenMetal و همچنین آموزش OpenStack رو خواهیم داشت.</p>
+
+
+
+<h3>Posts in this series</h3>
+<ul>
+  
+    <li><a href="/persian/post/2-openstack_fa/">آموزش Openstack و آشنایی با OpenMetal.io - بخش دوم</a></li>
+  
+    <li><a href="/persian/post/1-openstack_fa/">آموزش Openstack و آشنایی با OpenMetal.io - بخش اول</a></li>
+  
+</ul>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/openstack/">Openstack</a><a class="tag" href="/tags/openmetal/">OpenMetal</a><a class="tag" href="/tags/cloud/">Cloud</a><a class="tag" href="/tags/cloud-computing/">Cloud computing</a><a class="tag" href="/tags/%D8%A7%D9%BE%D9%86-%D8%A7%D8%B3%D8%AA%DA%A9/">اپن استک</a><a class="tag" href="/tags/%D8%A7%D8%A8%D8%B1/">ابر</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WE97LMG20N"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WE97LMG20N');
+        }
+      </script></body>
+</html>

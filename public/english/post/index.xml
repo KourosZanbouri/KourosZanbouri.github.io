@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://localhost:1313/english/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate><atom:link href="http://localhost:1313/english/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time-Sensitive Networking - Part 1</title>
+      <link>http://localhost:1313/english/post/3-tsn-part1/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>http://localhost:1313/english/post/3-tsn-part1/</guid>
+      
+        <description>My research on TSN - Time-sensitive networking</description>
+      
+    </item>
+    
+    <item>
+      <title>iPhone 8 Battery Replacement</title>
+      <link>http://localhost:1313/english/post/2-iphone8battery/</link>
+      <pubDate>Wed, 02 Aug 2023 10:30:19 +0330</pubDate>
+      
+      <guid>http://localhost:1313/english/post/2-iphone8battery/</guid>
+      
+        <description>iPhone 8 Battery Replacement</description>
+      
+    </item>
+    
+    <item>
+      <title>Bringing Decentralized Search to Decentralized Services</title>
+      <link>http://localhost:1313/english/post/1-decentralized-search/</link>
+      <pubDate>Tue, 29 Nov 2022 11:22:19 +0330</pubDate>
+      
+      <guid>http://localhost:1313/english/post/1-decentralized-search/</guid>
+      
+        <description>Bringing Decentralized Search to Decentralized Services with DESEARCH and Kanban</description>
+      
+    </item>
+    
+  </channel>
+</rss>

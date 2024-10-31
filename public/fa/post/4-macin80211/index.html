@@ -1,0 +1,679 @@
+<!doctype html>
+<html
+  dir="rtl"
+  lang="fa"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <meta charset="utf-8" />
+  <title>
+    
+      
+        مدیریت دسترسی به مدیوم در شبکه های بی سیم |
+      Kouros Zanbouri
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.136.5"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Kouros Zanbouri" />
+  <meta
+    name="description"
+    content="سیستم‌های شبکه‌های بی‌سیم (Wireless Networks) به منظور ارتباط بیشتر و بهبود کارایی و برای مدیریت دسترسی به مدیوم (Medium Access Control - MAC) که یکی از جنبه‌های حیاتی در شبکه‌های بی‌سیم است ، به تنظیم دسترسی گره‌ها به کانال ارتباطات می‌پردازد."
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.rtl.min.8004b6ec3d65d09ae1990f008dc05143f892885b495e9096b0473fcbcba48979.css"
+      integrity="sha256-gAS27D1l0JrhmQ8AjcBRQ/iSiFtJXpCWsEc/y8ukiXk="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://kouroszanbouri.github.io/fa/post/4-macin80211/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="مدیریت دسترسی به مدیوم در شبکه های بی سیم">
+  <meta name="twitter:description" content="سیستم‌های شبکه‌های بی‌سیم (Wireless Networks) به منظور ارتباط بیشتر و بهبود کارایی و برای مدیریت دسترسی به مدیوم (Medium Access Control - MAC) که یکی از جنبه‌های حیاتی در شبکه‌های بی‌سیم است ، به تنظیم دسترسی گره‌ها به کانال ارتباطات می‌پردازد.">
+
+
+
+  
+  <meta property="og:url" content="https://kouroszanbouri.github.io/fa/post/4-macin80211/">
+  <meta property="og:site_name" content="Kouros Zanbouri">
+  <meta property="og:title" content="مدیریت دسترسی به مدیوم در شبکه های بی سیم">
+  <meta property="og:description" content="سیستم‌های شبکه‌های بی‌سیم (Wireless Networks) به منظور ارتباط بیشتر و بهبود کارایی و برای مدیریت دسترسی به مدیوم (Medium Access Control - MAC) که یکی از جنبه‌های حیاتی در شبکه‌های بی‌سیم است ، به تنظیم دسترسی گره‌ها به کانال ارتباطات می‌پردازد.">
+  <meta property="og:locale" content="fa">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-05-22T10:49:18+03:30">
+    <meta property="article:modified_time" content="2024-05-22T10:49:18+03:30">
+    <meta property="article:tag" content="MAC">
+    <meta property="article:tag" content="Medium Access Control">
+    <meta property="article:tag" content="IEEE 802.11">
+    <meta property="article:tag" content="Point Coordination Function">
+    <meta property="article:tag" content="Distributed Coordination Function">
+    <meta property="article:tag" content="Hybrid Coordination Function">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "مدیریت دسترسی به مدیوم در شبکه های بی سیم",
+        "headline": "مدیریت دسترسی به مدیوم در شبکه های بی سیم",
+        "alternativeHeadline": "",
+        "description": "
+      سیستم‌های شبکه‌های بی‌سیم (Wireless Networks) به منظور ارتباط بیشتر و بهبود کارایی و برای مدیریت دسترسی به مدیوم (Medium Access Control - MAC) که یکی از جنبه‌های حیاتی در شبکه‌های بی‌سیم است ، به تنظیم دسترسی گره‌ها به کانال ارتباطات می‌پردازد.
+
+
+    ",
+        "inLanguage": "fa",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/kouroszanbouri.github.io\/fa\/post\/4-macin80211\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Kouros Zanbouri"
+        },
+        "copyrightYear" : "2024",
+        "dateCreated": "2024-05-22T10:49:18.00Z",
+        "datePublished": "2024-05-22T10:49:18.00Z",
+        "dateModified": "2024-05-22T10:49:18.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Kouros Zanbouri",
+            "url": "https://kouroszanbouri.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/kouroszanbouri.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/kouroszanbouri.github.io\/fa\/post\/4-macin80211\/",
+        "wordCount" : "834",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "MAC"
+
+    
+      
+        ,
+
+      
+      "Medium Access Control"
+
+    
+      
+        ,
+
+      
+      "IEEE 802.11"
+
+    
+      
+        ,
+
+      
+      "Point Coordination Function"
+
+    
+      
+        ,
+
+      
+      "Distributed Coordination Function"
+
+    
+      
+        ,
+
+      
+      "Hybrid Coordination Function"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/fa">Kouros Zanbouri</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p><br />علاقه مند به فناوری اطلاعات<br />علاقه مند به تحقیق و پژوهش<br /><br />-کلید PGP- <br />0575887F49213EB4EE8D951D912DD243017C1570<br /></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://scholar.google.com/citations?user=0Xr6wVQAAAAJ&amp;hl=en"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Google Scholar"
+            title="Google Scholar"
+          >
+            <i class="fab fa-google-scholar fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://orcid.org/0000-0003-0252-8282"
+            target="_blank"
+            rel="noopener me"
+            aria-label="orcid"
+            title="orcid"
+          >
+            <i class="fab fa-orcid fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.researchgate.net/profile/Kouros-Zanbouri-2"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Researchgate"
+            title="Researchgate"
+          >
+            <i class="fab fa-researchgate fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/kouros-zanbouri/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/KourosZanbouri/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.instagram.com/kouroszanbouri/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="instagram"
+            title="instagram"
+          >
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:mail@example.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://t.me/KourosZ"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fab fa-telegram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.webofscience.com/wos/author/record/1651032"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Publons/Web of Science"
+            title="Publons/Web of Science"
+          >
+            <i class="ai ai-publons-square ai-3x fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WE97LMG20N"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WE97LMG20N');
+        }
+      </script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/fa/"
+              
+              title=""
+              >خانه</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/fa/post/"
+              
+              title=""
+              >نوشته ها</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>مدیریت دسترسی به مدیوم در شبکه های بی سیم</h1>
+      
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  22/5/2024
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">4-دقیقه زمان مطالعه</span>
+          </li>
+        </ul>
+      <p>سیستم‌های شبکه‌های بی‌سیم (Wireless Networks) به منظور ارتباط بیشتر و بهبود کارایی و برای مدیریت دسترسی به مدیوم (Medium Access Control - MAC) که یکی از جنبه‌های حیاتی در شبکه‌های بی‌سیم است ، به تنظیم دسترسی گره‌ها به کانال ارتباطات می‌پردازد.  این مدیریت از مفاهیم مختلفی مانند Point Coordination Function (PCF)، Distributed Coordination Function (DCF)، و Hybrid استفاده می‌کنند. این مفاهیم به بهبود مدیریت دسترسی به مدیوم انتقال داده در شبکه‌های بی‌سیم کمک می‌کنند. در ادامه به توضیح این مفاهیم خواهیم پرداخت.</p>
+<ol>
+<li>
+<p>Point Coordination Function (PCF):
+PCF یکی از دو مکانیزم اصلی در استاندارد IEEE 802.11 است و برای بهبود کارایی در انتقال داده‌ها استفاده می‌شود. در این مکانیزم، یک گره یا دستگاه مرکزی به نام Point Coordinator (PC) وظیفه مدیریت دسترسی به مدیوم ارتباطات را بر عهده دارد. PCF در زمانی که ترتیبی دقیق برای ارسال داده‌ها وجود داشته باشد، به بهبود تأخیر و کنترل دقیق تر دسترسی کمک می‌کند. این گره مرکزی برنامه‌ریزی زمانی برای ارسال داده‌ها تعیین می‌کند و سایر گره‌ها تا زمان مشخصی به کانال دسترسی ندارند. این سیاست منجر به کاهش تداخل‌ها و بهبود کنترل بر دسترسی به مدیوم می‌شود.</p>
+</li>
+<li>
+<p>Distributed Coordination Function (DCF):
+DCF نیز مکانیزم دیگری در استاندارد IEEE 802.11 است. در این مکانیزم، هر گره به طور مستقل دسترسی به مدیوم را کنترل می‌کند. این به معنای این است که هر گره بر اساس یک الگوریتم تصمیم‌گیری خود، تصمیم می‌گیرد که زمانی که مدیوم آزاد است، داده‌های خود را ارسال کند. DCF به صورت تصادفی و غیره متناسب از مدیوم استفاده می‌کند. این مدل از مدیریت دسترسی منجر به افزایش انعطاف‌پذیری و سادگی در دسترسی به مدیوم می‌شود.</p>
+</li>
+<li>
+<p>Hybrid Coordination Function:
+به منظور بهینه‌سازی عملکرد و اجتناب از مشکلات ممکن در هر دو مکانیزم مذکور، Hybrid Coordination Function (HCF) به وجود آمده است. HCF ترکیبی از PCF و DCF است و از هر دو مکانیزم به نحوی استفاده می‌کند که بهترین عملکرد را ارائه دهد. این مدل از مدیریت دسترسی به مدیوم به گره‌ها امکان می‌دهد که به صورت تعادلی و کنترل‌شده دسترسی به مدیوم داشته باشند، همچنین به مدیران شبکه امکان کنترل دقیق‌تر و بهتر بر دسترسی به مدیوم را می‌دهد.</p>
+</li>
+</ol>
+<p>به طور کلی، استفاده از مفاهیم PCF، DCF، و HCF در شبکه‌های بی‌سیم به بهبود کارایی، مدیریت مناسب منابع، و کاهش تداخل در ارتباطات کمک می‌کند. این ترکیب از مکانیزم‌ها باعث بهبود امکانات ارتباطی در محیط‌های بی‌سیم می‌شود.</p>
+<p>در تصویر زیر (منبع 2) ، ترتیب دسترسی به مدیوم در شبکه های وایرلس (802.11) نشان داده شده :
+<img alt="ترتیب دسترسی به مدیوم در شبکه های وایرلس" src="/post-images/Postfa_4AMediaAccessEvent.jpg"></p>
+<p>SIFS (Short Interframe Space)، PIFS (PCF Interframe Space) و DIFS (DCF Interframe Space) اصطلاحاتی هستند که در فرآیند ارتباطات بی‌سیم (Wireless)، به خصوص در استاندارد IEEE 802.11 (Wi-Fi) استفاده می‌شوند. این اصطلاحات به زمان‌های مشخصی اشاره دارند که در فرآیند انتقال داده‌ها و ارتباط بین دستگاه‌ها در شبکه بی‌سیم برای جلوگیری از تداخل و تعارض اطلاعات استفاده می‌شوند.</p>
+<ol>
+<li>
+<p><strong>SIFS (Short Interframe Space):</strong></p>
+<ul>
+<li>SIFS یک فاصله کوتاه است که بین فریم‌های متوالی ارسال می‌شود.</li>
+<li>این فاصله برای ارتباطات فوری و پایین‌ترین تاخیرها استفاده می‌شود، به عنوان مثال برای ارسال پیش‌نمونه‌های فریم.</li>
+</ul>
+</li>
+<li>
+<p><strong>PIFS (PCF Interframe Space):</strong></p>
+<ul>
+<li>PIFS نیز یک فاصله است که بین فریم‌های متوالی ارسال می‌شود.</li>
+<li>اما PIFS برای استفاده در حالت‌های زمانی مختلف تعریف شده است، به ویژه در حالت مدیریت توانایی (PCF -Point Coordination Function) شبکه‌های Wi-Fi.</li>
+</ul>
+</li>
+<li>
+<p><strong>DIFS (DCF Interframe Space):</strong></p>
+<ul>
+<li>DIFS یک فاصله بزرگتر است که برای فاصله‌گذاری بین فریم‌های مختلف ارسال می‌شود.</li>
+<li>این فاصله در حالت مدیریت تداخل (DCF - Distributed Coordination Function) شبکه‌های Wi-Fi استفاده می‌شود.</li>
+<li>DIFS شامل یک SIFS و یک زمان اضافی است که به منظور جلوگیری از تداخل‌های احتمالی و تشخیص فرصت مناسب برای ارسال فریم است.</li>
+</ul>
+</li>
+</ol>
+<p>در کل، این فاصله‌ها به عنوان یک نظم زمانی برای دستگاه‌ها در شبکه بی‌سیم اعمال می‌شوند تا بهبود عملکرد و کارایی ارتباطات بی‌سیم برقرار شود.</p>
+<p>در سایر شبکه های ارتباطاتی نیز مکانیزم های مشابه وجود دارند. لیست زیر قسمتی از مکانیزم های موجود با توجه به نوع شبکه مشخص شده است:</p>
+<ol>
+<li>
+<p><strong>شبکه های وای فای IEEE 802.11 (Wi-Fi):</strong></p>
+<ul>
+<li>Distributed Coordination Function (DCF)</li>
+<li>Point Coordination Function (PCF)</li>
+<li>Enhanced Distributed Channel Access (EDCA) in IEEE 802.11e (QoS enhancement)</li>
+</ul>
+</li>
+<li>
+<p><strong>بلوتوث Bluetooth:</strong></p>
+<ul>
+<li>Bluetooth uses a frequency-hopping spread spectrum (FHSS) for MAC.</li>
+</ul>
+</li>
+<li>
+<p><strong>Zigbee (IEEE 802.15.4):</strong></p>
+<ul>
+<li>Carrier Sense Multiple Access with Collision Avoidance (CSMA-CA)</li>
+</ul>
+</li>
+<li>
+<p><strong>Wireless Sensor Networks (WSN):</strong></p>
+<ul>
+<li>Time Division Multiple Access (TDMA)</li>
+<li>Carrier Sense Multiple Access with Collision Avoidance (CSMA-CA)</li>
+</ul>
+</li>
+<li>
+<p><strong>LTE (Long-Term Evolution):</strong></p>
+<ul>
+<li>Orthogonal Frequency Division Multiple Access (OFDMA) for downlink</li>
+<li>Single Carrier Frequency Division Multiple Access (SC-FDMA) for uplink</li>
+</ul>
+</li>
+<li>
+<p><strong>WiMAX (Worldwide Interoperability for Microwave Access):</strong></p>
+<ul>
+<li>Orthogonal Frequency Division Multiple Access (OFDMA) for both uplink and downlink</li>
+</ul>
+</li>
+<li>
+<p><strong>NFC (Near Field Communication):</strong></p>
+<ul>
+<li>Passive and active modes with various modulation schemes</li>
+</ul>
+</li>
+<li>
+<p><strong>RFID (Radio-Frequency Identification):</strong></p>
+<ul>
+<li>Various anti-collision protocols, including ALOHA-based protocols</li>
+</ul>
+</li>
+<li>
+<p><strong>Satellite Communication:</strong></p>
+<ul>
+<li>Demand Assigned Multiple Access (DAMA)</li>
+</ul>
+</li>
+<li>
+<p><strong>Cellular Networks (e.g., GSM, CDMA, 5G):</strong></p>
+<ul>
+<li>Time Division Multiple Access (TDMA) in GSM</li>
+<li>Code Division Multiple Access (CDMA) in CDMA networks</li>
+<li>Multiple access schemes like OFDMA and others in 5G</li>
+</ul>
+</li>
+</ol>
+<p>این پست صرفا جهت ارائه توضیحات حداقلی برای آشنایی با مفاهیم بود. برای یادگیری عمیق لطفا به رفرنس های مرجع مراجع کنید</p>
+<hr>
+<p>منابع و رفرنس ها :</p>
+<ol>
+<li><a href="https://en.wikipedia.org/wiki/Medium_access_control">Medium Access Control</a></li>
+<li><a href="https://www.sciencedirect.com/topics/computer-science/point-coordination-function">Point Coordination Function</a></li>
+</ol>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/fa/tags/mac/">MAC</a><a class="tag" href="/fa/tags/medium-access-control/">Medium Access Control</a><a class="tag" href="/fa/tags/ieee-802%2e11/">IEEE 802.11</a><a class="tag" href="/fa/tags/point-coordination-function/">Point Coordination Function</a><a class="tag" href="/fa/tags/distributed-coordination-function/">Distributed Coordination Function</a><a class="tag" href="/fa/tags/hybrid-coordination-function/">Hybrid Coordination Function</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WE97LMG20N"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WE97LMG20N');
+        }
+      </script></body>
+</html>

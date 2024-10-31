@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Computing on </title>
+    <link>http://localhost:1313/tags/cloud-computing/</link>
+    <description>Recent content in Cloud Computing on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Feb 2023 10:49:18 +0330</lastBuildDate><atom:link href="http://localhost:1313/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش دوم</title>
+      <link>http://localhost:1313/persian/post/2-openstack_fa/</link>
+      <pubDate>Wed, 01 Feb 2023 10:49:18 +0330</pubDate>
+      
+      <guid>http://localhost:1313/persian/post/2-openstack_fa/</guid>
+      
+        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش دوم</description>
+      
+    </item>
+    
+    <item>
+      <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش اول</title>
+      <link>http://localhost:1313/persian/post/1-openstack_fa/</link>
+      <pubDate>Mon, 28 Nov 2022 22:49:18 +0330</pubDate>
+      
+      <guid>http://localhost:1313/persian/post/1-openstack_fa/</guid>
+      
+        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول</description>
+      
+    </item>
+    
+  </channel>
+</rss>

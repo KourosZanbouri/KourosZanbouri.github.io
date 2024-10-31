@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://localhost:1313/persian/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 May 2024 10:49:18 +0330</lastBuildDate><atom:link href="http://localhost:1313/persian/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>مدیریت دسترسی به مدیوم در شبکه های بی سیم</title>
+      <link>http://localhost:1313/persian/post/4-macin80211/</link>
+      <pubDate>Wed, 22 May 2024 10:49:18 +0330</pubDate>
+      
+      <guid>http://localhost:1313/persian/post/4-macin80211/</guid>
+      
+        <description>سیستم‌های شبکه‌های بی‌سیم (Wireless Networks) به منظور ارتباط بیشتر و بهبود کارایی و برای مدیریت دسترسی به مدیوم (Medium Access Control - MAC) که یکی از جنبه‌های حیاتی در شبکه‌های بی‌سیم است ، به تنظیم دسترسی گره‌ها به کانال ارتباطات می‌پردازد.</description>
+      
+    </item>
+    
+    <item>
+      <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش دوم</title>
+      <link>http://localhost:1313/persian/post/2-openstack_fa/</link>
+      <pubDate>Wed, 01 Feb 2023 10:49:18 +0330</pubDate>
+      
+      <guid>http://localhost:1313/persian/post/2-openstack_fa/</guid>
+      
+        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش دوم</description>
+      
+    </item>
+    
+    <item>
+      <title>بررسی جدیدترین نسخه fork در گیت هاب</title>
+      <link>http://localhost:1313/persian/post/3-github-fork-checker/</link>
+      <pubDate>Thu, 05 Jan 2023 22:49:18 +0330</pubDate>
+      
+      <guid>http://localhost:1313/persian/post/3-github-fork-checker/</guid>
+      
+        <description>بررسی جدیدترین نسخه fork در گیت هاب</description>
+      
+    </item>
+    
+    <item>
+      <title>آموزش Openstack و آشنایی با OpenMetal.io - بخش اول</title>
+      <link>http://localhost:1313/persian/post/1-openstack_fa/</link>
+      <pubDate>Mon, 28 Nov 2022 22:49:18 +0330</pubDate>
+      
+      <guid>http://localhost:1313/persian/post/1-openstack_fa/</guid>
+      
+        <description>آموزش اپن استک (OpenStack) و آشنایی با اپن متال (OpenMetal.io) - بخش اول</description>
+      
+    </item>
+    
+  </channel>
+</rss>

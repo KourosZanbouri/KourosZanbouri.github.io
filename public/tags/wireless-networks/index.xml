@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wireless Networks on </title>
+    <link>https://kouroszanbouri.github.io/tags/wireless-networks/</link>
+    <description>Recent content in Wireless Networks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Oct 2023 00:52:28 +0100</lastBuildDate><atom:link href="https://kouroszanbouri.github.io/tags/wireless-networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time-Sensitive Networking - Part 1</title>
+      <link>https://kouroszanbouri.github.io/post/3-tsn-part1/</link>
+      <pubDate>Fri, 20 Oct 2023 00:52:28 +0100</pubDate>
+      
+      <guid>https://kouroszanbouri.github.io/post/3-tsn-part1/</guid>
+      
+        <description>My research on TSN - Time-sensitive networking</description>
+      
+    </item>
+    
+  </channel>
+</rss>
